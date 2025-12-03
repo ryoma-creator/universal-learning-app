@@ -3733,7 +3733,104 @@ export const initialLearningItems: LearningItem[] = [
   correctCount: 0,
   mistakeCount: 0,
   mastered: false
+},
+{
+  id: 'student-directed-1',
+  en: 'student-directed',
+  jp: '学生が監督した・学生主導の',
+  category: 'TOEIC頻出語彙',
+  situation: ['Business', 'Academic', 'TOEIC'],
+  form: ['形容詞', 'student-directed + 名詞'],
+  usage: [
+    'student-directed projects = 学生が監督したプロジェクト・作品',
+    'The film class is working on a student-directed film = その映画クラスは学生主導の映画に取り組んでいる',
+    'We need volunteers for student-directed videos = 学生制作の動画のためにボランティアが必要です'
+  ],
+  nuance: 'ハイフンでつないで「〜によって〜された」という受け身の形容詞になる。TOEICでは company-sponsored や employee-owned と同じ構造で頻出。',
+  createdAt: new Date(),
+  correctCount: 0,
+  mistakeCount: 0,
+  mastered: false
+},
+{
+  id: 'sourcing-1',
+  en: 'sourcing',
+  jp: '調達すること・仕入れ',
+  category: 'TOEIC頻出語彙',
+  situation: ['Business', 'Procurement', 'TOEIC'],
+  form: ['動名詞', 'sourcing + 名詞'],
+  usage: [
+    'sourcing materials = 材料を調達すること',
+    'sourcing textiles = 生地の仕入れ',
+    'He is responsible for sourcing suppliers = 彼は仕入れ先の調達を担当している'
+  ],
+  nuance: 'purchase よりもビジネス寄りで「仕入れ先を見つける＋買う」まで含む広いニュアンス。',
+  createdAt: new Date(),
+  correctCount: 0,
+  mistakeCount: 0,
+  mastered: false
+},
+{
+  id: 'selective-1',
+  en: 'selective',
+  jp: '厳選する・慎重に選ぶ',
+  category: 'TOEIC頻出語彙',
+  situation: ['Business', 'TOEIC'],
+  form: ['be selective in/about + 名詞', 'selective + 名詞'],
+  usage: [
+    'be highly selective in hiring = 採用をとても厳選する',
+    'He is selective about suppliers = 彼は仕入れ先を慎重に選ぶ',
+    'The manager is very selective = 管理者は選りすぐりするタイプだ'
+  ],
+  nuance: '“好き嫌い” の意味ではなく「品質基準が高く慎重に選ぶ」というビジネス的な褒め言葉。',
+  createdAt: new Date(),
+  correctCount: 0,
+  mistakeCount: 0,
+  mastered: false
+},
+{
+  id: 'upholstery-1',
+  en: 'upholstery',
+  jp: '椅子やソファの布張り・クッション部分',
+  category: 'TOEIC頻出語彙',
+  situation: ['Business', 'Furniture', 'TOEIC'],
+  form: ['upholstery', 'upholstered + 名詞'],
+  usage: [
+    'new upholstery for chairs = 椅子の新しい張り地',
+    'upholstery cleaning = ソファの布張りのクリーニング',
+    'upholstered furniture = 布張りの家具'
+  ],
+  nuance: '家具の「布やクッション部分」。家庭とビジネスどちらでも頻出の語。',
+  createdAt: new Date(),
+  correctCount: 0,
+  mistakeCount: 0,
+  mastered: false
+},
+{
+  id: 'along-with-1',
+  en: 'along with',
+  jp: '〜に加えて／〜と共に（補足的に）',
+  category: 'TOEIC頻出語彙',
+  situation: ['Business', 'TOEIC'],
+  form: ['A along with B', 'A（メイン） + along with + B（付け加え）'],
+  usage: [
+    'The CEO, along with the managers, attended the event = CEOに加えて、マネージャーも参加した',
+    'Ms. Weaver usually attends the meetings along with other directors = ウィーバーさんは他のディレクターと共に会議に参加する',
+    'Lunch is served along with drinks = 昼食に飲み物が付いてくる'
+  ],
+  nuance: 'with より「Aがメイン、Bは付け加え」のニュアンスがある。文の主語はAのまま。',
+  createdAt: new Date(),
+  correctCount: 0,
+  mistakeCount: 0,
+  mastered: false
 }
+
+
+
+
+
+
+
 
 
 ];
